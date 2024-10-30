@@ -5,6 +5,7 @@ import "package:flutter_arc_text/flutter_arc_text.dart";
 
 import "package:spot/spot.dart";
 import "package:spot/bc.dart";
+import "package:wear_os_plugin/wear_os_clipper.dart";
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -102,7 +103,7 @@ class HomeState extends State<HomePage> {
   }
 
   @override
-  Widget build(BuildContext context) => Scaffold(
+  Widget build(BuildContext context) => WearOsClipper(child: Scaffold(
     body: !didInit
       ? Center(child: Text(status))
       : Stack(children: [
@@ -144,7 +145,7 @@ class HomeState extends State<HomePage> {
       icon: const Icon(Icons.refresh),
       label: const Text("Refresh"),
     ),
-  );
+  ),);
 }
 
 extension on BuildContext {

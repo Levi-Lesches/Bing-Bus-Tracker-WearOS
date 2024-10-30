@@ -78,6 +78,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.8"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -131,6 +139,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.0"
+  wear_os_plugin:
+    dependency: "direct main"
+    description:
+      name: wear_os_plugin
+      sha256: "3b44dc25efffe03c359ae80b46ab7a64876f38de6445213fb2276cc187cec5a6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.0"
   web:
     dependency: transitive
     description:
