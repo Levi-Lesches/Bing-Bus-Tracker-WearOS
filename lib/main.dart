@@ -14,9 +14,8 @@ void main() {
       home: const HomePage(),
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: const ColorScheme.dark(),
+        colorScheme: const ColorScheme.dark(surface: Colors.black),
         visualDensity: VisualDensity.compact,
-        textTheme: Typography.dense2021,
       ),
     ),
   );
